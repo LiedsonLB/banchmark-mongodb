@@ -1,0 +1,14 @@
+2024-11-21 19:23:57 - INSERT: 1000 registros simples inseridos.
+2024-11-21 19:23:57 - BENCHMARK: insert_simple_records executado em 0.019028 segundos
+2024-11-21 19:23:57 - INSERT: 10000 registros grandes inseridos.
+2024-11-21 19:23:57 - BENCHMARK: insert_large_records executado em 0.713049 segundos
+2024-11-21 19:23:57 - READ: 10 registros filtrados lidos.
+2024-11-21 19:23:57 - BENCHMARK: read_filtered_records executado em 0.059554 segundos
+2024-11-21 19:23:57 - READ: 10 registros lidos com ordenação.
+2024-11-21 19:23:57 - BENCHMARK: read_sorted_records executado em 0.013779 segundos
+2024-11-21 19:24:02 - UPDATE: 5361 registros específicos atualizados.
+2024-11-21 19:24:02 - BENCHMARK: update_specific_records executado em 5.004601 segundos
+2024-11-21 19:24:02 - DELETE: 50 registros filtrados removidos.
+2024-11-21 19:24:02 - BENCHMARK: delete_filtered_records executado em 0.055542 segundos
+2024-11-21 19:24:02 - READ: 10 registros filtrados lidos.
+2024-11-21 19:24:02 - BENCHMARK: read_filtered_records executado em 0.008040 segundos
