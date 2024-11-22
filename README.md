@@ -6,7 +6,7 @@ Este projeto utiliza Docker para criar um ambiente isolado e Python para rodar o
 
 ## Clone o repositório
 ```
-git clone https://github.com/usuario/seu-repositorio.git
+git clone https://github.com/LiedsonLB/lb-banchmark-mongodb.git
 ```
 
 ## Build e Inicialize os serviços do container Docker em segundo plano
