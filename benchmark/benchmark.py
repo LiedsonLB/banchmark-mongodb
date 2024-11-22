@@ -6,9 +6,9 @@ if __name__ == "__main__":
     # Limpar a coleção antes de iniciar o teste
     from pymongo import MongoClient
 
-    MONGO_URI = "mongodb://root:mylittlepassword@mongo:27017"
-    DATABASE_NAME = "benchmark_db"
-    COLLECTION_NAME = "benchmark_collection"
+    MONGO_URI = "mongodb://dayana:ohTh#aiT6g@170.245.33.221:27017/"
+    DATABASE_NAME = "meu_banco"
+    COLLECTION_NAME = "minha_colecao"
     
     client = MongoClient(MONGO_URI)
     db = client[DATABASE_NAME]
