@@ -1,6 +1,7 @@
 import time
 from log import log_action
 
+# Função de benchmark para medir o tempo de execução
 def benchmark(func):
     def wrapper(*args, **kwargs):
         start = time.time()

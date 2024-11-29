@@ -1,0 +1,68 @@
+------- Caso simples ------------------
+
+2024-11-27 20:22:56 - INSERT: 1000 registros simples inseridos com sucesso.
+2024-11-27 20:22:56 - BENCHMARK: insert_simple_records executado em 0.137575 segundos
+2024-11-27 20:22:56 - INSERT: 5000 registros grandes inseridos com sucesso.
+2024-11-27 20:22:56 - BENCHMARK: insert_large_records executado em 0.539950 segundos
+2024-11-27 20:22:56 - INSERT: 2000 registros inseridos em massa.
+2024-11-27 20:22:56 - BENCHMARK: insert_bulk_records executado em 0.061832 segundos
+2024-11-27 20:22:56 - READ: 100 registros filtrados lidos (valor > 50).
+2024-11-27 20:22:56 - BENCHMARK: read_filtered_records executado em 0.044434 segundos
+2024-11-27 20:22:56 - INDEX: Índice criado para o campo 'value' com sucesso. Índice: value_1.
+2024-11-27 20:22:56 - BENCHMARK: create_index executado em 0.005611 segundos
+2024-11-27 20:22:56 - INSERT: 5 registros inseridos do CSV.
+2024-11-27 20:22:56 - READ: 10 registros ordenados por 'value' (ascendente) lidos.
+2024-11-27 20:22:56 - BENCHMARK: read_sorted_records executado em 0.007261 segundos
+2024-11-27 20:22:56 - UPDATE: 10 registros com 'value' < 50 atualizados para novo valor.
+2024-11-27 20:22:56 - BENCHMARK: update_specific_records executado em 0.019730 segundos
+2024-11-27 20:22:56 - DELETE: 10 registros com 'value' < 50 deletados.
+2024-11-27 20:22:56 - BENCHMARK: delete_filtered_records executado em 0.020817 segundos
+2024-11-27 20:22:56 - READ: 10 registros lidos com consulta complexa (OR: 'value' > 75 ou 'value' < 25).
+2024-11-27 20:22:56 - BENCHMARK: complex_query executado em 0.008250 segundos
+2024-11-27 20:22:56 - AGGREGATE: 5 valores mais frequentes encontrados com agregação: [{'_id': None, 'count': 1010}, {'_id': 56, 'count': 189}, {'_id': 67, 'count': 189}, {'_id': 47, 'count': 182}, {'_id': 50, 'count': 182}]
+2024-11-27 20:22:56 - BENCHMARK: aggregation_query executado em 0.033462 segundos
+
+--------- Caso extremo ---------------
+
+2024-11-27 20:26:41 - INSERT: 10000 registros simples inseridos com sucesso.
+2024-11-27 20:26:41 - BENCHMARK: insert_simple_records executado em 0.633231 segundos
+2024-11-27 20:26:51 - INSERT: 50000 registros grandes inseridos com sucesso.
+2024-11-27 20:26:51 - BENCHMARK: insert_large_records executado em 9.664565 segundos
+2024-11-27 20:26:51 - INSERT: 20000 registros inseridos em massa.
+2024-11-27 20:26:51 - BENCHMARK: insert_bulk_records executado em 0.468379 segundos
+2024-11-27 20:26:51 - READ: 1000 registros filtrados lidos (valor > 50).
+2024-11-27 20:26:51 - BENCHMARK: read_filtered_records executado em 0.017965 segundos
+2024-11-27 20:26:51 - INDEX: Índice criado para o campo 'value' com sucesso. Índice: value_1.
+2024-11-27 20:26:51 - BENCHMARK: create_index executado em 0.006166 segundos
+2024-11-27 20:26:51 - INSERT: 500 registros inseridos do CSV.
+2024-11-27 20:26:51 - READ: 1000 registros ordenados por 'value' (ascendente) lidos.
+2024-11-27 20:26:51 - BENCHMARK: read_sorted_records executado em 0.019156 segundos
+2024-11-27 20:26:52 - UPDATE: 1000 registros com 'value' < 50 atualizados para novo valor.
+2024-11-27 20:26:52 - BENCHMARK: update_specific_records executado em 1.094275 segundos
+2024-11-27 20:26:53 - DELETE: 1000 registros com 'value' < 50 deletados.
+2024-11-27 20:26:53 - BENCHMARK: delete_filtered_records executado em 0.918256 segundos
+2024-11-27 20:26:53 - READ: 1000 registros lidos com consulta complexa (OR: 'value' > 75 ou 'value' < 25).
+2024-11-27 20:26:53 - BENCHMARK: complex_query executado em 0.069015 segundos
+2024-11-27 20:26:53 - AGGREGATE: 5 valores mais frequentes encontrados com agregação: [{'_id': 11, 'count': 1884}, {'_id': None, 'count': 1510}, {'_id': 12, 'count': 1035}, {'_id': 7, 'count': 1016}, {'_id': 9, 'count': 1016}]
+2024-11-27 20:26:53 - BENCHMARK: aggregation_query executado em 0.055133 segundos
+2024-11-28 21:05:55 - INSERT: 10000 registros simples inseridos com sucesso.
+2024-11-28 21:05:55 - BENCHMARK: insert_simple_records executado em 0.238355 segundos
+2024-11-28 21:05:58 - INSERT: 50000 registros grandes inseridos com sucesso.
+2024-11-28 21:05:58 - BENCHMARK: insert_large_records executado em 3.563933 segundos
+2024-11-28 21:05:58 - INSERT: 20000 registros inseridos em massa.
+2024-11-28 21:05:58 - BENCHMARK: insert_bulk_records executado em 0.295938 segundos
+2024-11-28 21:05:59 - READ: 1000 registros filtrados lidos (valor > 50).
+2024-11-28 21:05:59 - BENCHMARK: read_filtered_records executado em 0.136330 segundos
+2024-11-28 21:05:59 - INDEX: Índice criado para o campo 'value' com sucesso. Índice: value_1.
+2024-11-28 21:05:59 - BENCHMARK: create_index executado em 0.008133 segundos
+2024-11-28 21:05:59 - INSERT: 500 registros inseridos do CSV.
+2024-11-28 21:05:59 - READ: 1000 registros ordenados por 'value' (ascendente) lidos.
+2024-11-28 21:05:59 - BENCHMARK: read_sorted_records executado em 0.021803 segundos
+2024-11-28 21:05:59 - UPDATE: 1000 registros com 'value' < 50 atualizados para novo valor.
+2024-11-28 21:05:59 - BENCHMARK: update_specific_records executado em 0.879943 segundos
+2024-11-28 21:06:00 - DELETE: 1000 registros com 'value' < 50 deletados.
+2024-11-28 21:06:00 - BENCHMARK: delete_filtered_records executado em 0.814071 segundos
+2024-11-28 21:06:00 - READ: 1000 registros lidos com consulta complexa (OR: 'value' > 75 ou 'value' < 25).
+2024-11-28 21:06:00 - BENCHMARK: complex_query executado em 0.016208 segundos
+2024-11-28 21:06:00 - AGGREGATE: 5 valores mais frequentes encontrados com agregação: [{'_id': 11, 'count': 3496}, {'_id': 12, 'count': 2036}, {'_id': None, 'count': 2010}, {'_id': 9, 'count': 1859}, {'_id': 74, 'count': 1854}]
+2024-11-28 21:06:00 - BENCHMARK: aggregation_query executado em 0.084823 segundos
